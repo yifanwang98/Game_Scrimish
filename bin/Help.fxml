@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Beta2_HelpController">
+   <center>
+      <Pane prefHeight="560.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="68.0" fitWidth="154.0" layoutX="268.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@./help_1280.png" />
+               </image>
+               <effect>
+                  <Reflection fraction="0.68" topOpacity="0.1" />
+               </effect>
+            </ImageView>
+            <VBox layoutX="30.0" layoutY="85.0" prefHeight="463.0" prefWidth="640.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Both players have a set of cards composed of the following cards and numbers:" wrappingWidth="621.8327941894531" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="#1 Dagger Cards (x5 per player)                        #2 Sword Cards (x5 per player)" wrappingWidth="570.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="#3 Morning Star Cards (x3 per player               #4 War Axe Cards (x3 per player))" wrappingWidth="570.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="#5 Halberd Cards (x2 per player)                      #6 Longsword Cards (x2 per player)" wrappingWidth="570.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="'A' Archer Cards (x2 per player)                         'S' Shield Cards (x2 per player)" wrappingWidth="570.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Crown Card (x1 per player)" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                  <Text lineSpacing="4.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Setup: The user player places 5 Piles of 5 Cards each face down in front of him.The Crown Card should be hidden on the bottom of one of the 5 Piles. The rest ofthe Cards may be arranged however you like. The computer does the same thing:the crown card is placed on the bottom of a random pile, while the rest of the cardare distributed into 5 piles (such that we have 5 cards in each pile)." wrappingWidth="640.0">
+                     <font>
+                        <Font name="Helvetica" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Game Play: The players take turns attacking (starting with the user first) byselecting the top card from one of their piles and laying that card face up in front ofone of their opponent's piles. The defending player must then reveal the top cardof the pile that was attacked. The card with the lowest number value loses and isdiscarded. The winning card must be returned face down to the top of the originalpile it was drawn from. If the two cards have the same number value, both cardsare discarded. The play continues until one of the players attacks their opponent'sCrown Card, winning the game." wrappingWidth="640.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="- Archer Card: If you attack with an Archer Card, it always wins. If your Archer Cardis attacked, it always loses." wrappingWidth="640.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="- Shield Card: Shield Cards cannot be used to attack. If your Shield Card isattacked, both your Shield Card and your opponent's attacking Card are discarded(except for Archer Cards: If a Shield Card is attacked by an Archer Card, neitherCard is discarded, and both are returned face down to their original Piles)." wrappingWidth="640.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="- Crown Card: You can attack with your Crown Card. If you attack your opponent'sCrown Card, you win. Otherwise, you lose the game." wrappingWidth="640.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="- Instead of attacking, you may intentionally discard one Card on your turn. You donot have to reveal that Card to your opponent. You cannot intentionally discardyour Crown Card." wrappingWidth="640.0" />
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

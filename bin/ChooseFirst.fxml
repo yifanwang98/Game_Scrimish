@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="Beta2_ChooseFirstController">
+	<children>
+		<Pane prefHeight="682.0" prefWidth="1280.0">
+			<children>
+				<ImageView fitHeight="802.0" fitWidth="1515.0"
+					pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image
+							url="@./Black-Lines-Stripes-Wood-Texture-Board-Background-3840x2400.jpg" />
+					</image>
+				</ImageView>
+				<Button fx:id="PlayerFirst" layoutX="577.0" layoutY="180.0"
+					mnemonicParsing="false" onMouseClicked="#PlayerFirstChosen"
+					prefHeight="75.0" prefWidth="150.0" text="Player First">
+					<font>
+						<Font name="Baskerville" size="22.0" />
+					</font>
+				</Button>
+				<Button fx:id="AIFirst" layoutX="577.0" layoutY="380.0"
+					mnemonicParsing="false" onMouseClicked="#AIFirstChosen" prefHeight="75.0"
+					prefWidth="150.0" text="AI First">
+					<font>
+						<Font name="Baskerville" size="22.0" />
+					</font>
+				</Button>
+				<Button mnemonicParsing="false" onAction="#goBack" text="BACK">
+					<font>
+						<Font name="NanumGothic" size="20.0" />
+					</font>
+				</Button>
+				<Button fx:id="StartBTN" disable="true" layoutX="1192.0"
+					mnemonicParsing="false" onAction="#clickToStart" text="START">
+					<font>
+						<Font name="NanumGothic" size="20.0" />
+					</font>
+				</Button>
+			</children>
+		</Pane>
+	</children>
+</AnchorPane>
