@@ -1,6 +1,7 @@
 # Game_Scrimish  
   
 * This my CSE 114 final project which a simplified game of Scrimish, a strategy card game, with 2 players: a human (i.e., the user) and the computer. Scrimish is a card game that was funded using kickstarter.com with the objective that luck is not a component of the game.  
+* Language: Java, JavaFX
 
 ### Setup
 * The user player places 5 Piles of 5 Cards each face down in front of him. The Crown Card should be hidden on the bottom of one of the 5 Piles. The rest of the Cards may be arranged however you like. The computer does the same thing: the crown card is placed on the bottom of a random pile, while the rest of the card are distributed into 5 piles (such that we have 5 cards in each pile).  
