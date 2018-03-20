@@ -17,7 +17,7 @@
          <children>
             <ImageView fitHeight="805.0" fitWidth="1294.0" onMouseClicked="#resetVariable" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@./Black-Lines-Stripes-Wood-Texture-Board-Background-3840x2400.jpg" />
+                  <Image url="@./img/Black-Lines-Stripes-Wood-Texture-Board-Background-3840x2400.jpg" />
                </image>
             </ImageView>
             <Text fill="WHITE" layoutX="384.0" layoutY="64.0" onMouseClicked="#resetVariable" strokeType="OUTSIDE" strokeWidth="0.0" text="-Set Up Your Cards-" wrappingWidth="579.459587097168">

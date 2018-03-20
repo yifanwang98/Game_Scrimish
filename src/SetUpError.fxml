@@ -14,7 +14,7 @@
          <children>
             <ImageView fitHeight="122.0" fitWidth="177.0" layoutX="191.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@./error-logo1.gif" />
+                  <Image url="@./img/error-logo1.gif" />
                </image>
             </ImageView>
             <Text fill="#c90000" layoutX="29.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crown Card Can Only Be Placed On the BOTTOM" wrappingWidth="442.21875">

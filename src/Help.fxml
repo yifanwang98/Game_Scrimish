@@ -15,7 +15,7 @@
          <children>
             <ImageView fitHeight="68.0" fitWidth="154.0" layoutX="268.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@./help_1280.png" />
+                  <Image url="@./img/help_1280.png" />
                </image>
                <effect>
                   <Reflection fraction="0.68" topOpacity="0.1" />

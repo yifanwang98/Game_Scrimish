@@ -16,7 +16,7 @@
 					pickOnBounds="true" preserveRatio="true">
 					<image>
 						<Image
-							url="@./Black-Lines-Stripes-Wood-Texture-Board-Background-3840x2400.jpg" />
+							url="@./img/Black-Lines-Stripes-Wood-Texture-Board-Background-3840x2400.jpg" />
 					</image>
 				</ImageView>
 				<Button fx:id="PlayerFirst" layoutX="577.0" layoutY="180.0"
